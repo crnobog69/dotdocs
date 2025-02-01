@@ -5,12 +5,12 @@
   "devDependencies": {
     "husky": "^9.1.7",
     "prettier": "^3.4.2",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.0.0-rc.31"
   },
   "scripts": {
-    "docs:dev": "bunx --bun vitepress dev",
-    "docs:build": "bunx --bun vitepress build",
-    "docs:preview": "bunx --bun vitepress preview",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview",
     "prepare": "husky"
   }
 }
