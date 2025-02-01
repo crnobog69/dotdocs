@@ -72,9 +72,8 @@ stow zed
 ---
 
 - Windows
-
-> [!INFO]
-> Није пожан у потпуности. За Windows посетити [`DotWin`](/dotwin).
+  > [!INFO]
+  > Није подржан у потпуности. За Windows посетити [`DotWin`](/dotwin).
 
 
 ## *Пречице* (`cmd`)
