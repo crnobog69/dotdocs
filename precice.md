@@ -7,16 +7,16 @@
 
 Налази се у: [`crnobog69/dotfiles/cmd`](https://github.com/crnobog69/dotfiles/tree/main/cmd)
 
-## Основне команде за Arch Linux
+## *Основне команде за Arch Linux*
 
-### Команде за навигацију
+### *Команде за навигацију*
 
 - **`cd ime_direktorijuma`** - Прелазак у директоријум.
 - **`cd ..`** - Враћање у родитељски директоријум.
 - **`cd ~`** - Прелазак у кућни директоријум.
 - **`pwd`** - Приказује путању тренутног директоријума.
 
-### Команде за Kitty Terminal (дељење хоризонтално)
+### *Команде за Kitty Terminal (дељење хоризонтално)*
 
 - **`Ctrl + Shift + e`** - дељење хоризонтално
 - **`Ctrl + Shift + Enter`** - дељење хоризонтално
@@ -26,7 +26,7 @@
 - **`Ctrl + Shift + up_arrow`** - горе прозор
 - **`Ctrl + Shift + down_arrow`** - доле прозор
 
-### Управљање датотекама и директоријумима са `yay`
+### *Управљање датотекама и директоријумима са `yay`*
 
 - **`mkdir ime_direktorijuma`** - Креира нови директоријум.
 - **`touch ime_datoteke`** - Креира празну датотеку.
@@ -36,30 +36,30 @@
 - **`cp izvor-datoteka odredište`** - Копира датотеку.
 - **`mv izvor-datoteka odredište`** - Премешта или преименује датотеку.
 
-### Ажурирање система
+### *Ажурирање система*
 
-#### pacman
+#### *pacman*
 
 - **`sudo pacman -Syu`** - Ажурирање система.
 - **`sudo pacman -S ime_paketa`** - Инсталирање пакета.
 - **`sudo pacman -Rns ime_paketa`** - Уклањање пакета.
 - **`pacman -Ss ime_paketa`** - Претрага пакета.
 
-#### yay
+#### *yay*
 
 - **`yay -Syu`**/**`yay`** - Ажурирање система са `yay`.
 - **`yay -S ime_paketa`** - Инсталирање пакета са `yay`.
 - **`yay -Rns ime_paketa`** - Уклањање пакета са `yay`.
 - **`yay -Ss ime_paketa`** - Претрага пакета са `yay`.
 
-### Управљање услугама
+### *Управљање услугама*
 
 - **`sudo systemctl start ime_usluge`** - Покретање услуге.
 - **`sudo systemctl stop ime_usluge`** - Заустављање услуге.
 - **`systemctl status ime_usluge`** - Провера статуса услуге.
 - **`sudo systemctl enable ime_usluge`** - Додавање услуге у аутоматско покретање.
 
-### Управљање Bluetooth-ом
+### *Управљање Bluetooth-ом*
 
 - **`sudo systemctl start bluetooth.service`** - Покретање Bluetooth услуге.
 - **`sudo systemctl stop bluetooth.service`** - Заустављање Bluetooth услуге.
@@ -70,7 +70,7 @@
   - **`scan on`** - Појављивање уређаја у близини.
   - **`pair [MAC адреса]`** - Постављање везе са уређајем.
 
-### Остале команде
+### *Остале команде*
 
 - **`ls`** - Приказује садржај директоријума са груписањем директоријума првим, користећи `lsd --group-directories-first`.
 - **`ls`** - Приказује садржај директоријума са бојама користећи `ls --color`.
@@ -104,21 +104,21 @@
 - **`litterbox`** - ./litterbox.sh --help
 - **`lama`** - ./lama.sh --help
 
-### Команде за ажурирање
+### *Команде за ажурирање*
 
-#### EndeavourOS
+#### *EndeavourOS*
 
 - **`azu-eos`** - Ажурирање EndeavourOS-а преко AUR-а
 
-#### Garuda Linux
+#### *Garuda Linux*
 
 - **`azu-gar`** - Ажурирање Garuda Linux-а
 
-#### Универзално ажурирање
+#### *Универзално ажурирање*
 
 - **`zap`** - Прилагођена скрипта за ажурирање система са подршком за више операцисних система
 
-### DOOM / Eternal
+### *DOOM / Eternal*
 
 - **`corrax`** - Мистериозни програм
 - **`doom`** - Покреће програм који приказује DOOM грб

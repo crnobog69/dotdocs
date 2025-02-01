@@ -82,7 +82,7 @@ powershell -Command "Set-ExecutionPolicy RemoteSigned"
 - `push.ps1` - прилагођена `pull`/`push` скрипта (Windows)
 - `pull.ps1` - прилагођена `pull` скрипта (Windows)
 
-### Директоријум: `/dotfiles/scripts`
+### *Директоријум*: `/dotfiles/scripts` 
 
 - **Поддиректоријум:** `pasters`
 - **Поддиректоријум:** `vhs`
