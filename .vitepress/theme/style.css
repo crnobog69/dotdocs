@@ -1,0 +1,501 @@
+/**
+ * Customize default theme styling by overriding CSS variables:
+ * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
+ */
+
+/**
+ * Colors
+ *
+ * Each colors have exact same color scale system with 3 levels of solid
+ * colors with different brightness, and 1 soft color.
+ *
+ * - `XXX-1`: The most solid color used mainly for colored text. It must
+ *   satisfy the contrast ratio against when used on top of `XXX-soft`.
+ *
+ * - `XXX-2`: The color used mainly for hover state of the button.
+ *
+ * - `XXX-3`: The color for solid background, such as bg color of the button.
+ *   It must satisfy the contrast ratio with pure white (#ffffff) text on
+ *   top of it.
+ *
+ * - `XXX-soft`: The color used for subtle background such as custom container
+ *   or badges. It must satisfy the contrast ratio when putting `XXX-1` colors
+ *   on top of it.
+ *
+ *   The soft color must be semi transparent alpha channel. This is crucial
+ *   because it allows adding multiple "soft" colors on top of each other
+ *   to create a accent, such as when having inline code block inside
+ *   custom containers.
+ *
+ * - `default`: The color used purely for subtle indication without any
+ *   special meanings attached to it such as bg color for menu hover state.
+ *
+ * - `brand`: Used for primary brand colors, such as link text, button with
+ *   brand theme, etc.
+ *
+ * - `tip`: Used to indicate useful information. The default theme uses the
+ *   brand color for this by default.
+ *
+ * - `warning`: Used to indicate warning to the users. Used in custom
+ *   container, badges, etc.
+ *
+ * - `danger`: Used to show error, or dangerous message to the users. Used
+ *   in custom container, badges, etc.
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-c-default-1: var(--vp-c-gray-1);
+  --vp-c-default-2: var(--vp-c-gray-2);
+  --vp-c-default-3: var(--vp-c-gray-3);
+  --vp-c-default-soft: var(--vp-c-gray-soft);
+
+  --vp-c-brand-1: #e54b4b;
+  --vp-c-brand-2: #d43d3d;
+  --vp-c-brand-3: #c33434;
+  --vp-c-brand-soft: rgba(229, 75, 75, 0.14);
+
+  --vp-c-tip-1: var(--vp-c-brand-1);
+  --vp-c-tip-2: var(--vp-c-brand-2);
+  --vp-c-tip-3: var(--vp-c-brand-3);
+  --vp-c-tip-soft: var(--vp-c-brand-soft);
+
+  --vp-c-warning-1: var(--vp-c-yellow-1);
+  --vp-c-warning-2: var(--vp-c-yellow-2);
+  --vp-c-warning-3: var(--vp-c-yellow-3);
+  --vp-c-warning-soft: var(--vp-c-yellow-soft);
+
+  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-2: var(--vp-c-red-2);
+  --vp-c-danger-3: var(--vp-c-red-3);
+  --vp-c-danger-soft: var(--vp-c-red-soft);
+}
+
+:root {
+  /* Solarized colors */
+  --sl-base03: #002b36;
+  --sl-base02: #073642;
+  --sl-base01: #586e75;
+  --sl-base00: #657b83;
+  --sl-base0: #839496;
+  --sl-base1: #93a1a1;
+  --sl-base2: #eee8d5;
+  --sl-base3: #fdf6e3;
+
+  /* Base palette - muted versions */
+  --muted-red: #d4413f;
+  --muted-red-soft: #e2817f;
+  --muted-black: #2a282b;
+  --muted-gray: #8c8788;
+
+  /* Theme colors - Solarized Light */
+  --vp-c-bg: var(--sl-base3);
+  --vp-c-bg-soft: var(--sl-base2);
+  --vp-c-bg-mute: var(--sl-base2);
+  --vp-c-bg-alt: var(--sl-base2);
+
+  --vp-c-text-1: var(--sl-base00);
+  --vp-c-text-2: var(--sl-base01);
+  --vp-c-text-soft: var(--sl-base1);
+
+  /* Brand colors - muted imperial red */
+  --vp-c-brand-1: var(--muted-red);
+  --vp-c-brand-2: #c13c3a;
+  --vp-c-brand-3: #ae3735;
+  --vp-c-brand-soft: rgba(212, 65, 63, 0.14);
+
+  /* Light theme table colors */
+  --vp-table-border-color: rgba(212, 65, 63, 0.1);
+  --vp-table-header-bg: rgba(212, 65, 63, 0.05);
+  --vp-table-even-row-bg: rgba(212, 65, 63, 0.02);
+}
+
+/* Updated card color variables */
+:root {
+  --card-color-white-wisp: #fafafa; /* New light color */
+  --card-color-sea-haze: #d0f0c0; /* New greenish tint */
+  --card-color-swiss-coffee: #f5e1da; /* New warm tone */
+  --card-color-winter-orchard: #d3c6ad; /* Unchanged */
+  --card-color-atomic-tangerine: #ffa987;
+  --card-color-seashell: #f7ebe8;
+  --card-color-imperial-red: #e54b4b;
+}
+
+/* Dark theme - Catppuccin Mocha */
+.dark {
+  /* Updated background color */
+  --ctp-base: #28281f; /* New background color for dark theme */
+  --vp-c-bg: var(--ctp-base);
+  --ctp-crust: #494331; /* updated: dark color */
+  --ctp-mantle: #494331; /* updated: dark color */
+  --ctp-text: #9cb380; /* main text color */
+  --ctp-green: #a6d49f; /* accent green */
+
+  /* Base colors */
+  --ctp-surface0: #313244;
+  --ctp-surface1: #45475a;
+  --ctp-surface2: #585b70;
+  --ctp-overlay0: #6c7086;
+  --ctp-overlay1: #7f849c;
+  --ctp-overlay2: #9399b2;
+  --ctp-subtext0: #a6adc8;
+  --ctp-subtext1: #bac2de;
+
+  /* Add Catppuccin accent colors */
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-blue: #89b4fa;
+
+  /* Catppuccin Mocha Palette */
+  --ctp-rosewater: #f5e0dc;
+  --ctp-flamingo: #f2cdcd;
+  --ctp-pink: #f5c2e7;
+  --ctp-mauve: #cba6f7;
+  --ctp-red: #f38ba8;
+  --ctp-maroon: #eba0ac;
+  --ctp-peach: #fab387;
+  --ctp-yellow: #f9e2af;
+  --ctp-green: #a6e3a1;
+  --ctp-teal: #94e2d5;
+  --ctp-sky: #89dceb;
+  --ctp-sapphire: #74c7ec;
+  --ctp-blue: #89b4fa;
+  --ctp-lavender: #b4befe;
+
+  /* Theme application */
+  --vp-c-bg-soft: var(--ctp-surface0);
+  --vp-c-bg-mute: var(--ctp-surface1);
+  --vp-c-bg-alt: var(--ctp-mantle);
+
+  --vp-c-text-1: var(--ctp-text);
+  --vp-c-text-2: var(--ctp-subtext1);
+  --vp-c-text-soft: var(--ctp-subtext0);
+
+  /* Sidebar and custom block backgrounds */
+  --vp-sidebar-bg-color: #20221a; /* Updated sidebar color */
+  --vp-code-block-bg: var(--ctp-surface0);
+  --vp-custom-block-info-bg: var(--ctp-surface0);
+  --vp-custom-block-info-text: var(--ctp-text);
+  --vp-custom-block-tip-bg: rgba(212, 65, 63, 0.08);
+
+  /* Code highlighting */
+  --vp-code-line-highlight-color: rgba(99, 102, 126, 0.5);
+
+  /* Custom block colors using vibrant Catppuccin colors */
+  --vp-custom-block-info-border: var(--ctp-sapphire);
+  --vp-custom-block-info-bg: rgba(137, 180, 250, 0.2); /* Blue */
+  --vp-custom-block-info-text: #ffffff;
+  --vp-custom-block-info-code-bg: rgba(137, 180, 250, 0.3);
+
+  --vp-custom-block-tip-border: var(--ctp-green);
+  --vp-custom-block-tip-bg: rgba(166, 227, 161, 0.2); /* Green */
+  --vp-custom-block-tip-text: #ffffff;
+  --vp-custom-block-tip-code-bg: rgba(166, 227, 161, 0.3);
+
+  --vp-custom-block-warning-border: var(--ctp-peach);
+  --vp-custom-block-warning-bg: rgba(250, 179, 135, 0.2); /* Peach */
+  --vp-custom-block-warning-text: #ffffff;
+  --vp-custom-block-warning-code-bg: rgba(250, 179, 135, 0.3);
+
+  --vp-custom-block-danger-border: var(--ctp-red);
+  --vp-custom-block-danger-bg: rgba(243, 139, 168, 0.2); /* Red */
+  --vp-custom-block-danger-text: #ffffff;
+  --vp-custom-block-danger-code-bg: rgba(243, 139, 168, 0.3);
+
+  /* Custom block titles - make them colored */
+  --vp-custom-block-info-title: var(--ctp-blue);
+  --vp-custom-block-tip-title: var(--ctp-green);
+  --vp-custom-block-warning-title: var(--ctp-peach);
+  --vp-custom-block-danger-title: var(--ctp-red);
+
+  /* Custom block colors - using full Catppuccin colors */
+  --vp-custom-block-info-border: var(--ctp-sapphire);
+  --vp-custom-block-info-bg: rgba(116, 199, 236, 0.2);
+  --vp-custom-block-info-text: var(--ctp-text);
+  --vp-custom-block-info-title: var(--ctp-sapphire);
+
+  --vp-custom-block-tip-border: var(--ctp-teal);
+  --vp-custom-block-tip-bg: rgba(148, 226, 213, 0.2);
+  --vp-custom-block-tip-text: var(--ctp-text);
+  --vp-custom-block-tip-title: var(--ctp-teal);
+
+  --vp-custom-block-warning-border: var(--ctp-yellow);
+  --vp-custom-block-warning-bg: rgba(249, 226, 175, 0.2);
+  --vp-custom-block-warning-text: var(--ctp-text);
+  --vp-custom-block-warning-title: var(--ctp-yellow);
+
+  --vp-custom-block-danger-border: var(--ctp-maroon);
+  --vp-custom-block-danger-bg: rgba(235, 160, 172, 0.2);
+  --vp-custom-block-danger-text: var(--ctp-text);
+  --vp-custom-block-danger-title: var(--ctp-maroon);
+
+  /* Code blocks inside custom blocks */
+  --vp-custom-block-info-code-bg: rgba(116, 199, 236, 0.1);
+  --vp-custom-block-tip-code-bg: rgba(148, 226, 213, 0.1);
+  --vp-custom-block-warning-code-bg: rgba(249, 226, 175, 0.1);
+  --vp-custom-block-danger-code-bg: rgba(235, 160, 172, 0.1);
+
+  /* Dark theme table improvements */
+  --vp-table-border-color: rgba(166, 212, 159, 0.15);
+  --vp-table-header-bg: rgba(156, 179, 128, 0.15);
+  --vp-table-even-row-bg: rgba(156, 179, 128, 0.05);
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: var(--vp-c-white);
+  --vp-button-brand-bg: var(--vp-c-brand-3);
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-hover-text: var(--vp-c-white);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-border: transparent;
+  --vp-button-brand-active-text: var(--vp-c-white);
+  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    var(--muted-red) 30%,
+    var(--muted-red-soft)
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    var(--muted-red) 50%,
+    var(--muted-red-soft) 50%
+  );
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+
+/**
+ * Component: Custom Block
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-custom-block-tip-border: transparent;
+  --vp-custom-block-tip-text: var(--ctp-text);
+  --vp-custom-block-tip-bg: rgba(40, 167, 69, 0.1); /* Changed: green tint */
+  --vp-custom-block-tip-code-bg: rgba(40, 167, 69, 0.15);
+
+  /* Info block - using Solarized Light blue tints */
+  --vp-custom-block-info-border: transparent;
+  --vp-custom-block-info-bg: rgba(0, 123, 255, 0.1); /* Changed: blue tint */
+  --vp-custom-block-info-text: var(--ctp-text);
+  --vp-custom-block-info-code-bg: rgba(0, 123, 255, 0.15);
+
+  /* Warning block - warmer yellow tones */
+  --vp-custom-block-warning-border: transparent;
+  --vp-custom-block-warning-bg: rgba(
+    255,
+    193,
+    7,
+    0.1
+  ); /* Changed: orange tint */
+  --vp-custom-block-warning-text: var(--ctp-text);
+  --vp-custom-block-warning-code-bg: rgba(255, 193, 7, 0.15);
+
+  /* Danger block - more visible red */
+  --vp-custom-block-danger-border: transparent;
+  --vp-custom-block-danger-bg: rgba(220, 53, 69, 0.1); /* Changed: red tint */
+  --vp-custom-block-danger-text: var(--ctp-text);
+  --vp-custom-block-danger-code-bg: rgba(220, 53, 69, 0.15);
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+
+/* Modern feature card styling */
+.VPFeature {
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 1.5rem;
+}
+
+.VPFeature:nth-child(1) {
+  background: linear-gradient(135deg, #494331 0%, #28281f 100%);
+}
+
+.VPFeature:nth-child(2) {
+  background: linear-gradient(
+    135deg,
+    #a6d49f 0%,
+    rgba(166, 212, 159, 0.8) 100%
+  );
+}
+
+.VPFeature:nth-child(3) {
+  background: linear-gradient(
+    135deg,
+    #9cb380 0%,
+    rgba(156, 179, 128, 0.9) 100%
+  );
+}
+
+.VPFeature::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    1200px circle at var(--mouse-x) var(--mouse-y),
+    rgba(255, 255, 255, 0.06),
+    transparent 40%
+  );
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.1),
+    0 4px 8px rgba(0, 0, 0, 0.05);
+  transition-duration: 1s;
+}
+
+.VPFeature:hover::before {
+  opacity: 1;
+}
+
+.VPFeature:active {
+  transform: translateY(-2px);
+  transition-duration: 1s;
+}
+
+.VPFeature .title,
+.VPFeature .details {
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+/* Code block styling for both light and dark themes */
+:root {
+  /* Light theme code blocks */
+  --vp-code-block-bg: #f8f9fa;
+  --vp-code-block-divider-color: rgba(60, 60, 67, 0.12);
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.04);
+  --vp-code-line-number-color: var(--sl-base01);
+  --vp-code-copy-code-bg: rgba(60, 60, 67, 0.1);
+  --vp-code-copy-code-hover-bg: rgba(60, 60, 67, 0.15);
+  --vp-code-copy-code-active-text: var(--sl-base01);
+
+  /* Syntax highlighting colors for light theme */
+  --vp-code-color-text: #24292e;
+  --vp-code-color-comment: #6a737d;
+  --vp-code-color-keyword: #d73a49;
+  --vp-code-color-string: #032f62;
+  --vp-code-color-number: #005cc5;
+  --vp-code-color-function: #6f42c1;
+
+  /* Light theme table */
+  --vp-table-border-color: rgba(212, 65, 63, 0.1);
+  --vp-table-header-bg: rgba(212, 65, 63, 0.05);
+  --vp-table-even-row-bg: rgba(212, 65, 63, 0.02);
+}
+
+/* Dark theme code blocks remain unchanged */
+.dark {
+  --vp-code-block-bg: #20221a;
+  --vp-code-block-divider-color: rgba(156, 179, 128, 0.1);
+  --vp-code-line-highlight-color: rgba(156, 179, 128, 0.2);
+  --vp-code-line-number-color: var(--ctp-overlay0);
+  --vp-code-copy-code-bg: rgba(156, 179, 128, 0.05);
+  --vp-code-copy-code-hover-bg: rgba(156, 179, 128, 0.1);
+  --vp-code-copy-code-active-text: var(--ctp-green);
+
+  /* Dark theme table colors */
+  --vp-table-border-color: rgba(166, 212, 159, 0.15);
+  --vp-table-header-bg: rgba(156, 179, 128, 0.15);
+  --vp-table-even-row-bg: rgba(156, 179, 128, 0.05);
+}
+
+/* Shared code block styles */
+div[class*="language-"] {
+  background-color: var(--vp-code-block-bg);
+  border: 1px solid var(--vp-code-block-divider-color);
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+  margin: 16px 0;
+}
+
+div[class*="language-"]:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+/* Code block line numbers */
+div[class*="language-"] .line-numbers {
+  color: var(--vp-code-line-number-color);
+}
+
+/* Highlighted lines */
+div[class*="language-"] .highlighted {
+  background-color: var(--vp-code-line-highlight-color);
+  border-left: 2px solid var(--vp-c-brand-1);
+}
+
+/* Shared table styles */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 16px 0;
+  border: 1px solid var(--vp-table-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: var(--vp-table-header-bg);
+  border-bottom: 1px solid var(--vp-table-border-color);
+  color: var(--vp-c-text-1);
+  font-weight: 600;
+  padding: 12px;
+  text-align: left;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid var(--vp-table-border-color);
+  color: var(--vp-c-text-1);
+}
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+  background-color: var(--vp-table-even-row-bg);
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
