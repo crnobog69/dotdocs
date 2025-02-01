@@ -15,8 +15,6 @@ export default defineConfig({
       {
         text: "Постављање",
         items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
           { text: "О Dotfiles", link: "/o-dotfiles" },
           { text: "GNU Stow", link: "/gnu-stow" },
           { text: "Скрипте", link: "/skripte" },
