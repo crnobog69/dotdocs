@@ -66,8 +66,6 @@ Set-ExecutionPolicy RemoteSigned
 powershell -Command "Set-ExecutionPolicy RemoteSigned"
 ```
 
-## _Колекција скрипти_
-
 ## _Пуна листа_
 
 > [!NOTE]  
