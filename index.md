@@ -6,8 +6,8 @@ hero:
   text: "<i>Dotfiles Документација</i>"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Постављање
+      link: /postavljanje
     - theme: alt
       text: О Dotfiles
       link: /o-dotfiles
@@ -33,5 +33,5 @@ features:
       height: 48
     title: <i>Екстра</i>
     details: Велики број додатака за игрице и слично
-    link: /extras
+    link: /extra
 ---
