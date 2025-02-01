@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Почетна", link: "/" },
-      { text: "Постављање", link: "/markdown-examples" },
+      { text: "Постављање", link: "/postavljanje" },
     ],
 
     sidebar: [
