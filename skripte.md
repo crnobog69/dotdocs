@@ -9,6 +9,9 @@
 >
 > **_GitLab_** - [`crnobog/dotfiles/scripts`](https://gitlab.com/crnobog/dotfiles/tree/main/scripts)
 
+> [!NOTE]
+> Скирипте у [`crnobog69/dotfiles/scripts`](https://github.com/crnobog69/dotfiles/tree/main/scripts) нису исто што и [`crnobog69/scripts`](https://github.com/crnobog69/scripts).
+
 Колекција скрипти које корстим на **_Arch Linux_**.
 
 ## _Преузимање_
