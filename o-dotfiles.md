@@ -1,4 +1,10 @@
-# _О Dotfiles_
+<div align="center">
+
+# 🪐 | *Dotfiles*
+
+</div>
+
+---
 
 > [!INFO]
 > Репозиторијуми:
@@ -107,5 +113,35 @@ stow zed
 | **ИРО**              | VS Codium, VS Code, micro           | Zed                                                                                                           |
 | **Менаџер датотека** | Dolphin                             | Thunar                                                                                                        |
 | **Прегледач**        | Brave                               | Firefox Developer Edition                                                                                     |
+
+---
+
+#### Репозиторијуми (Extra):
+
+🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/extra)
+
+🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/extra)
+
+🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
+
+<br>
+
+#### Репозиторијуми (Dotfiles):
+
+🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotfiles)
+
+🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
+
+🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotfiles)
+
+<br>
+
+#### Репозиторијуми (dotwin | Windows):
+
+🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotwin)
+
+🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotwin)
+
+🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotwin)
 
 ---
