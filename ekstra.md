@@ -1,6 +1,6 @@
 <div align="center">
 
-# ❄️ | *Dotfiles Extra*
+# ❄️ | _Dotfiles Extra_
 
 </div>
 
@@ -17,7 +17,7 @@
 
 ---
 
-## *Постављање*
+## _Постављање_
 
 ### 1. Преузимање
 
@@ -35,74 +35,87 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 ## _Подржани програми_
 
-- **`KDE`**  
-  - Теме, иконе и конфигурације за KDE Plasma десктоп окружење.  
-  - Документација: [`kde`](extra/kde) или [на GitHub](https://github.com/crnobog69/extra/blob/main/kde/README.md)  
+- **`KDE`**
+
+  - Теме, иконе и конфигурације за KDE Plasma десктоп окружење.
+  - Документација: [`kde`](extra/kde) или [на GitHub](https://github.com/crnobog69/extra/blob/main/kde/README.md)
   - Званични сајт: [kde.org](https://kde.org)
 
-- **`Tabliss`**  
-  - Персонализована почетна страница за прегледач са модуларним виџетима.  
-  - Документација: [`tabliss`](extra/tabliss) или [на GitHub](https://github.com/crnobog69/extra/blob/main/tabliss/README.md)  
+- **`Tabliss`**
+
+  - Персонализована почетна страница за прегледач са модуларним виџетима.
+  - Документација: [`tabliss`](extra/tabliss) или [на GitHub](https://github.com/crnobog69/extra/blob/main/tabliss/README.md)
   - Званични сајт: [tabliss.io](https://tabliss.io)
 
-- **`Vencord`**  
-  - Модификације за Discord (теме, додатне функције).  
-  - Документација: [`vencord`](extra/vencord) или [на GitHub](https://github.com/crnobog69/extra/blob/main/vencord/README.md)  
+- **`Vencord`**
+
+  - Модификације за Discord (теме, додатне функције).
+  - Документација: [`vencord`](extra/vencord) или [на GitHub](https://github.com/crnobog69/extra/blob/main/vencord/README.md)
   - Званични сајт: [vencord.dev](https://vencord.dev)
 
-- **`Spicetify`**  
-  - Персонализација Spotify клијента кроз теме и додатке.  
-  - Документација: [`spicetify`](extra/spicetify) или [на GitHub](https://github.com/crnobog69/extra/blob/main/spicetify/README.md)  
+- **`Spicetify`**
+
+  - Персонализација Spotify клијента кроз теме и додатке.
+  - Документација: [`spicetify`](extra/spicetify) или [на GitHub](https://github.com/crnobog69/extra/blob/main/spicetify/README.md)
   - Званични сајт: [spicetify.app](https://spicetify.app)
 
-- **`MangaDex`**  
+- **`MangaDex`**
+
   - Тема за MangaDex .
-  - Документација: [`mangadex`](extra/mangadex) или [на GitHub](https://github.com/crnobog69/extra/blob/main/mangadex/README.md)  
+  - Документација: [`mangadex`](extra/mangadex) или [на GitHub](https://github.com/crnobog69/extra/blob/main/mangadex/README.md)
   - Званични сајт: [mangadex.org](https://mangadex.org)
 
-- **`Miruro`**  
-  - Подешавања за Miruro вебсајт.  
-  - Документација: [`miruro`](extra/miruro) или [на GitHub](https://github.com/crnobog69/extra/blob/main/miruro/README.md)  
+- **`Miruro`**
+
+  - Подешавања за Miruro вебсајт.
+  - Документација: [`miruro`](extra/miruro) или [на GitHub](https://github.com/crnobog69/extra/blob/main/miruro/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/crnobog69/extra/tree/main/miruro)
 
-- **`Violentmonkey`**  
-  - Корисничке скрипте.  
-  - Документација: [`violentmonkey`](extra/violentmonkey) или [на GitHub](https://github.com/crnobog69/extra/blob/main/violentmonkey/README.md)  
+- **`Violentmonkey`**
+
+  - Корисничке скрипте.
+  - Документација: [`violentmonkey`](extra/violentmonkey) или [на GitHub](https://github.com/crnobog69/extra/blob/main/violentmonkey/README.md)
   - Званични сајт: [violentmonkey.github.io](https://violentmonkey.github.io)
 
-- **`Firefox`**  
-  - Теме за Firefox прегледач.  
-  - Документација: [`firefox`](extra/firefox) или [на GitHub](https://github.com/crnobog69/extra/blob/main/firefox/README.md)  
+- **`Firefox`**
+
+  - Теме за Firefox прегледач.
+  - Документација: [`firefox`](extra/firefox) или [на GitHub](https://github.com/crnobog69/extra/blob/main/firefox/README.md)
   - Званични сајт: [mozilla.org/firefox](https://www.mozilla.org/firefox)
 
-- **`Cobaltium`**  
+- **`Cobaltium`**
+
   - Додатак који омогућава да тренутну веб страницу отворите директно на [cobalt.tools](https://cobalt.tools).
-  - Документација: [`cobaltium`](https://github.com/crnobog69/cobaltium) или [на GitHub](https://github.com/crnobog69/extra/blob/main/cobaltium/README.md)  
+  - Документација: [`cobaltium`](https://github.com/crnobog69/cobaltium) или [на GitHub](https://github.com/crnobog69/extra/blob/main/cobaltium/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/crnobog69/cobaltium)
 
-- **`Brave`**  
-  - Теме за Brave прегледач.  
-  - Документација: [`brave`](extra/brave) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave/README.md)  
+- **`Brave`**
+
+  - Теме за Brave прегледач.
+  - Документација: [`brave`](extra/brave) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave/README.md)
   - Званични сајт: [brave.com](https://brave.com)
 
-- **`WhatsApp`**  
-  - Теме и модификације за WhatsApp веб верзију.  
-  - Документација: [`whatsapp`](extra/whatsapp) или [на GitHub](https://github.com/crnobog69/extra/blob/main/whatsapp/README.md)  
+- **`WhatsApp`**
+
+  - Теме и модификације за WhatsApp веб верзију.
+  - Документација: [`whatsapp`](extra/whatsapp) или [на GitHub](https://github.com/crnobog69/extra/blob/main/whatsapp/README.md)
   - Званични сајт: [whatsapp.com](https://www.whatsapp.com)
 
-- **`GPTium`**  
+- **`GPTium`**
+
   - Шаљите изабрани текст ChatGPT-у
-  - Документација: [`gptium`](extra/gptium) или [на GitHub](https://github.com/crnobog69/extra/blob/main/gptium/README.md)  
+  - Документација: [`gptium`](extra/gptium) или [на GitHub](https://github.com/crnobog69/extra/blob/main/gptium/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/crnobog69/extra/tree/main/gptium)
 
 - **`Notesnook`**
+
   - Апликација за белешки.
-  - Документација: [`notesnook`](extra/notesnook) или [на GitHub](https://github.com/crnobog69/extra/blob/main/notesnook/README.md)  
+  - Документација: [`notesnook`](extra/notesnook) или [на GitHub](https://github.com/crnobog69/extra/blob/main/notesnook/README.md)
   - Званични сајт: [notesnook.com](https://notesnook.com)
 
 - **`brave-maps`**
   - Приказ мапа на Brave Search.
-  - Документација: [`brave-maps`](extra/brave-maps) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave-maps/README.md)  
+  - Документација: [`brave-maps`](extra/brave-maps) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave-maps/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/stignarnia/add-maps-links-brave-search)
 
 ---
