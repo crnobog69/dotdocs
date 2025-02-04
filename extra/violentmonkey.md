@@ -108,7 +108,7 @@
 
 <br>
 
-- 📧 | [Automail](automail/README.md)
+- 📧 | [Automail](https://github.com/crnobog69/extra/blob/main/violentmonkey/automail/README.md)
 
 <br>
 

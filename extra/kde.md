@@ -4,8 +4,8 @@
 
 </div>
 
-- 🗼 | [`konsole`](konsole/README.md) <= упутство | **Tokyo Night** тема
-- ⌨️ | [`shortcut-scheme`](shortcut-scheme/README.md) <= упутство | моја конфигурација пречица за тастатуру
-- 🐈 | [`catppuccin/kde`](https://github.com/catppuccin/kde) <= тема за KDE Plasma
+- 🗼 | [`konsole`](https://github.com/crnobog69/extra/tree/main/kde/konsole) <= упутство | **Tokyo Night** тема
+- ⌨️ | [`shortcut-scheme`](https://github.com/crnobog69/extra/blob/main/kde/shortcut-scheme/README.md) <= упутство | моја конфигурација пречица за тастатуру
+- 🐈 | [`catppuccin/kde`](https://github.com/crnobog69/extra/blob/main/kde/README.md) <= тема за KDE Plasma
 
 `colors` датотека је за `AppleDark-All` тему - `/home/krematorijum/.local/share/plasma/desktoptheme/AppleDark-ALL/`

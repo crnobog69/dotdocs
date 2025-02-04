@@ -1,13 +1,6 @@
 # 📝 | Catppuccin Mocha Green > [Notesnook](https://notesnook.com/)
 
 <div align="center">
-
----
-
-[Српски (🇷🇸)](README.md) | [English (🇬🇧)](README-en.md)
-
----
-
 </div>
 
 <br>

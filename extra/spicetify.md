@@ -31,7 +31,7 @@
 
 ### 🛠️ Како користити (Comfy тема)?
 
-🔸 Копирати садржај [`comfy-config.txt"`](comfy-config.txt) датотеке и у подешавањима Comfy Theme кликнути на "Import" дугме.
+🔸 Копирати садржај [`comfy-config.txt"`](https://github.com/crnobog69/extra/blob/main/spicetify/comfy-config.txt) датотеке и у подешавањима Comfy Theme кликнути на "Import" дугме.
 🔗 Spicetify [овде](https://github.com/spicetify).
 
 /

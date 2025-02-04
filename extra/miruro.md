@@ -2,12 +2,6 @@
 
 <div align="center">
 
----
-
-[Српски (🇷🇸)](README.md) | [English (🇬🇧)](README-en.md)
-
----
-
 </div>
 
 ## 🛠 | Инсталација
