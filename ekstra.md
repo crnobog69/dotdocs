@@ -126,7 +126,7 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 - **`static-ip`**
   - Упутство за постављање локалне статичне `IP` адресе.
-  - Документација: [`static-ip`](extra/static-ip) или [на GitHub](https://github.com/crnobog69/extra/blob/main/static-ip/static-ip.md)
+  - Документација: [`static-ip`](extra/static-ip) или [на GitHub](https://github.com/crnobog69/extra/blob/main/static-ip/README.md)
 
 ---
 
