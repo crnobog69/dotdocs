@@ -123,6 +123,10 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
   - Документација: [`brave-maps`](extra/brave-maps) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave-maps/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/stignarnia/add-maps-links-brave-search)
 
+- **`static-ip`**
+  - Упутство за постављање локалне статичне `IP` адресе.
+  - Документација: [`static-ip`](extra/static-ip) или [на GitHub](https://github.com/crnobog69/extra/blob/main/static-ip/static-ip.md)
+
 ---
 
 Остали програми (`Ultrakill`, `Phasmophobia`, `Portmaster`, `qBittorrent`, `Bashupload`, `Catbox`) имају конфигурације доступне у одговарајућим фасциклама:  
