@@ -44,6 +44,7 @@ export default defineConfig({
               { text: "miruro", link: "/extra/miruro" },
               { text: "notesnook", link: "/extra/notesnook" },
               { text: "spicetify", link: "/extra/spicetify" },
+              { text: "static-ip", link: "/extra/static-ip" },
               { text: "tabliss", link: "/extra/tabliss" },
               { text: "violentmonkey", link: "/extra/violentmonkey" },
               { text: "whatsapp", link: "/extra/whatsapp" },

@@ -119,6 +119,7 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
   - Званични сајт: [notesnook.com](https://notesnook.com)
 
 - **`brave-maps`**
+
   - Приказ мапа на Brave Search.
   - Документација: [`brave-maps`](extra/brave-maps) или [на GitHub](https://github.com/crnobog69/extra/blob/main/brave-maps/README.md)
   - Званични сајт: [GitHub репозиторијум](https://github.com/stignarnia/add-maps-links-brave-search)

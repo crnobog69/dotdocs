@@ -5,7 +5,7 @@
 
 ---
 
-#### **1. Провери мрежни сервис**  
+#### **1. Провери мрежни сервис**
 
 ```bash
 systemctl list-units --type=service | grep -E 'NetworkManager|systemd-networkd|dhcpcd'
@@ -13,52 +13,52 @@ systemctl list-units --type=service | grep -E 'NetworkManager|systemd-networkd|d
 
 ---
 
-#### **2. NetworkManager**  
+#### **2. NetworkManager**
 
 ```bash
-nmcli connection modify "Име-везе" ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.method manual  
-nmcli connection up "Име-везе"  
+nmcli connection modify "Име-везе" ipv4.addresses 192.168.1.100/24 ipv4.gateway 192.168.1.1 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.method manual
+nmcli connection up "Име-везе"
 ```
 
 ---
 
-#### **3. systemd-networkd**  
+#### **3. systemd-networkd**
 
-1. Направи фајл `/etc/systemd/network/20-wired.network`:  
+1. Направи фајл `/etc/systemd/network/20-wired.network`:
 
 ```ini
-[Match]  
-Name=enp3s0  
+[Match]
+Name=enp3s0
 
-[Network]  
-Address=192.168.1.100/24  
-Gateway=192.168.1.1  
-DNS=8.8.8.8 1.1.1.1  
+[Network]
+Address=192.168.1.100/24
+Gateway=192.168.1.1
+DNS=8.8.8.8 1.1.1.1
 ```
 
-2. Рестартуј:  
+2. Рестартуј:
 
 ```bash
-sudo systemctl restart systemd-networkd  
+sudo systemctl restart systemd-networkd
 ```
 
 ---
 
-#### **4. dhcpcd**  
+#### **4. dhcpcd**
 
-1. Уређуј `/etc/dhcpcd.conf`:  
+1. Уређуј `/etc/dhcpcd.conf`:
 
 ```bash
-interface enp3s0  
-static ip_address=192.168.1.100/24  
-static routers=192.168.1.1  
-static domain_name_servers=8.8.8.8 1.1.1.1  
+interface enp3s0
+static ip_address=192.168.1.100/24
+static routers=192.168.1.1
+static domain_name_servers=8.8.8.8 1.1.1.1
 ```
 
-2. Рестартуј:  
+2. Рестартуј:
 
 ```bash
-sudo systemctl restart dhcpcd  
+sudo systemctl restart dhcpcd
 ```
 
 > [!NOTE]
@@ -95,7 +95,7 @@ nmcli connection up "Име-везе"
 1. Отворите фајл `/etc/systemd/network/20-wired.network` у уређивачу (нпр. `nano` или `vim`):
 
    - Уклоните или коментаришите линије које дефинишу статичке вредности (нпр. `Address=`, `Gateway=`, `DNS=`) и додајте линију која омогућава DHCP:
-   
+
    ```ini
    [Match]
    Name=enp3s0
@@ -138,7 +138,8 @@ nmcli connection up "Име-везе"
 ---
 
 > [!NOTE]
-> - Замени `enp3s0` са стварним именом твог мрежног интерфејса.  
+>
+> - Замени `enp3s0` са стварним именом твог мрежног интерфејса.
 > - За NetworkManager, замени `"Име-везе"` са именом твог профила везе.
 >
 > Након ових измена, систем ће користити DHCP за аутоматско добијање IP адресе.
