@@ -134,10 +134,15 @@ stow zed
   - Подешавања за алат `Lsd` за листање датотека.
   - Званични сајт: [https://github.com/Peltoche/lsd](https://github.com/Peltoche/lsd)
 
-- **`Mpv`**
+- **`mpv`**
 
-  - Конфигурација за медија плејер `Mpv`.
+  - Конфигурација за медија плејер `mpv`.
   - Званични сајт: [https://mpv.io/](https://mpv.io/)
+
+- **`Haruna`**
+
+  - Конфигурација за медија плејер `Haruna`.
+  - Званични сајт: [https://apps.kde.org/sr/haruna/](https://apps.kde.org/haruna/)
 
 - **`Nvim`**
 

@@ -66,7 +66,7 @@ sudo systemctl restart dhcpcd
 
 ---
 
-# *Уклањање*
+# _Уклањање_
 
 > [!CAUTION]
 > ЛОКАЛНА `IP` АДРЕСА!
