@@ -14,6 +14,8 @@
 > **_Codeberg_** - [`crnobog/extra`](https://codeberg.org/crnobog/extra)
 >
 > **_GitLab_** - [`crnobog/extra`](https://gitlab.com/crnobog/extra)
+>
+> **_Gitea_** - [`crnobog/extra`](https://gitea.com/crnobog/extra)
 
 ---
 
@@ -153,6 +155,18 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 ---
 
+#### Репозиторијуми (Dotfiles):
+
+🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotfiles)
+
+🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
+
+🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotfiles)
+
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/dotfiles)
+
+<br>
+
 #### Репозиторијуми (Extra):
 
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/extra)
@@ -161,15 +175,7 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
 
-<br>
-
-#### Репозиторијуми (Dotfiles):
-
-🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotfiles)
-
-🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
-
-🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotfiles)
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/extra)
 
 <br>
 
@@ -180,5 +186,7 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotwin)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotwin)
+
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/dotwin)
 
 ---

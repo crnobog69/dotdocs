@@ -14,6 +14,8 @@
 > **_Codeberg_** - [`crnobog/dotfiles`](https://codeberg.org/crnobog/dotfiles)
 >
 > **_GitLab_** - [`crnobog/dotfiles`](https://gitlab.com/crnobog/dotfiles)
+>
+> **_Gitea_** - [`crnobog/dotfiles`](https://gitea.com/crnobog/dotfiles)
 
 Колекција мојих `dotfiles`-а које корстим на **_Arch Linux_**.
 
@@ -116,15 +118,6 @@ stow zed
 
 ---
 
-#### Репозиторијуми (Extra):
-
-🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/extra)
-
-🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/extra)
-
-🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
-
-<br>
 
 #### Репозиторијуми (Dotfiles):
 
@@ -133,6 +126,20 @@ stow zed
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotfiles)
+
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/dotfiles)
+
+<br>
+
+#### Репозиторијуми (Extra):
+
+🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/extra)
+
+🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/extra)
+
+🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
+
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/extra)
 
 <br>
 
@@ -143,5 +150,7 @@ stow zed
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotwin)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotwin)
+
+🍵 | [`Gitea | Репозиторијум`](https://gitea.com/crnobog/dotwin)
 
 ---

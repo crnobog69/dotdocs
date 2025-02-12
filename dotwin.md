@@ -14,3 +14,5 @@
 > **_Codeberg_** - [`crnobog/dotwin`](https://codeberg.org/crnobog/dotwin)
 >
 > **_GitLab_** - [`crnobog/dotwin`](https://gitlab.com/crnobog/dotwin)
+>
+> **_Gitea_** - [`crnobog/dotwin`](https://gitea.com/crnobog/dotwin)
