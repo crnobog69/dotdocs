@@ -4,8 +4,7 @@
   "installCommand": "npm install",
   "rewrites": [
     {
-      "source": "/:slug(.*)\\.html",
-      "destination": "/:slug"
+      "cleanUrls": true
     }
   ]
 }

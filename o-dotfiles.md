@@ -51,9 +51,11 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 3. Примена конфигурација:
 
+Све:
+
 ```bash
 cd ~/.dotfiles
-stow kitty-cat-green zed zsh fastfetch micro starship fish bottom cava bat mpv
+stow .
 ```
 
 или (једно)
@@ -62,6 +64,8 @@ stow kitty-cat-green zed zsh fastfetch micro starship fish bottom cava bat mpv
 cd ~/.dofiles
 stow zed
 ```
+
+За прилагођавање `stow .` команде, изменити `.stow-local-ignore`.
 
 ## _Компатибилност_
 
