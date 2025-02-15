@@ -110,7 +110,7 @@ stow zed
 | Категорија           | Детаљи                              | Друго                                                                                                         |
 | -------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | **ОС**               | Arch Linux (Garuda Linux)           | Windows 11                                                                                                    |
-| **РО**               | KDE Plasma 6.2.5                    | -                                                                                                             |
+| **РО**               | KDE Plasma 6.3.0                    | -                                                                                                             |
 | **Иконице**          | BeautyLine                          | Прилагођене Papirus-Dark - [Catppuccin Latte Lavender Folders](https://github.com/catppuccin/papirus-folders) |
 | **Композитор**       | Wayland                             | -                                                                                                             |
 | **Шкољка**           | zsh (Starship, Zoxide, Zinit, Tmux) | fish, bash                                                                                                    |
