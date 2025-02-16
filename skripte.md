@@ -37,14 +37,9 @@ cd scripts
 
 Прилагођена скрипта за инсталацију.
 
-```bash
-curl -s https://dotdocs.vercel.app/install.sh | bash
-```
-
-Или
 
 ```bash
-curl -s https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
 ```
 
 Или уз команду:
@@ -60,27 +55,10 @@ chmod +x install.sh
 Прво морате да дате дозволу скрипти/ама:
 
 ```bash
-cd dotfiles
-chmod +x scripts/pkg-rs.sh
-chmod +x scripts/pkg-en.sh
-chmod +x scripts/cgit.sh
-chmod +x scripts/kolo.sh
-chmod +x scripts/ftn.sh
-chmod +x scripts/crc.sh
-chmod +x scripts/entropy.sh
-chmod +x scripts/zap.sh
-chmod +x scripts/catbox.sh
-chmod +x scripts/litterbox.sh
-chmod +x scripts/spicetify.sh
-chmod +x push.sh
-chmod +x pull.sh
-```
-
-/
-
-```bash
-cd dotfiles && chmod +x scripts/pkg-rs.sh scripts/pkg-en.sh scripts/cgit.sh scripts/kolo.sh scripts/ftn.sh scripts/crc.sh scripts/entropy.sh scripts/zap.sh push.sh pull.sh
-
+cd dotfiles/scripts/
+chmod +x *.sh
+cd ..
+chmod +x *.sh
 ```
 
 ### _Windows_
