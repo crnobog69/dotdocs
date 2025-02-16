@@ -33,6 +33,28 @@ cd dotfiles
 cd scripts
 ```
 
+### *Скрипта за инсталацију*
+
+Прилагођена скрипта за инсталацију.
+
+```bash
+curl -s https://dotdocs.vercel.app/install.sh | bash
+```
+
+Или
+
+```bash
+curl -s https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | bash
+```
+
+Или уз команду:
+
+```bash
+cd dotfiles
+chmod +x install.sh
+./install.sh
+```
+
 ### _Linux_
 
 Прво морате да дате дозволу скрипти/ама:

@@ -164,6 +164,10 @@ stow zed
   - Конфигурација за апликацију `Filen`.
   - Званични сајт: [https://filen.io/](https://filen.io/)
 
+- **`Wakapi`**
+  - Конфигурација за апликацију `Wakapi`.
+  - Званични сајт: [https://wakapi.dev/](https://wakapi.dev/)
+
 - **`Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator`, `Apdatifier`**
   - Подешавања за `Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator` и `Apdatifier`.
     <br>
