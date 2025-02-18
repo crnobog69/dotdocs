@@ -109,6 +109,9 @@ stow zed
 
 | Категорија           | Детаљи                              | Друго                                                                                                         |
 | -------------------- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Процесор**         | AMD Ryzen 7 5700X                   | -                                                                                                             |
+| **Графичка карта**   | AMD Radeon RX 6700                  | -                                                                                                             |
+| **RAM**              | Kingston 16GB FURY Beast 3200 MHz   | -                                                                                                             |
 | **ОС**               | Arch Linux (Garuda Linux)           | Windows 11                                                                                                    |
 | **РО**               | KDE Plasma 6.3.0                    | -                                                                                                             |
 | **Иконице**          | BeautyLine                          | Прилагођене Papirus-Dark - [Catppuccin Latte Lavender Folders](https://github.com/catppuccin/papirus-folders) |
