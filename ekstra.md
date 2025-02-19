@@ -32,14 +32,22 @@
 
 ### 1. Преузимање
 
+- Скрипта (*dotfiles*):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
 ```
+
+- Или ручно:
+
+```bash
 git clone https://github.com/crnobog69/extra.git
 ```
 
 /
 
-```
-git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.com/crnobog69/extra.git
+```bash
+git clone https://github.com/crnobog69/extra.git && git clone https://github.com/crnobog69/extra.git
 ```
 
 За (постављање) `GNU Stow` Dotfiles посетите [`crnobog69/dotfiles`](https://github.com/crnobog69/dotfiles).

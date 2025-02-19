@@ -11,6 +11,10 @@
 >
 > **_GitHub_** - [`crnobog69/dotfiles/scripts`](https://github.com/crnobog69/dotfiles/tree/main/scripts)
 >
+> **_BitBucket_** - [`crnobog69/dotfiles/scripts`](https://bitbucket.org/crnobog69/dotfiles/src/main/scripts/)
+>
+> **_SourceHut_** - [`crnobog/dotfiles/scripts`](https://git.sr.ht/~crnobog/dotfiles/tree/main/item/scripts)
+>
 > **_Codeberg_** - [`crnobog/dotfiles/scripts`](https://codeberg.org/crnobog/dotfiles/tree/main/scripts)
 >
 > **_GitLab_** - [`crnobog/dotfiles/scripts`](https://gitlab.com/crnobog/dotfiles/tree/main/scripts)
@@ -35,11 +39,11 @@ cd scripts
 
 ### *Скрипта за инсталацију*
 
-Прилагођена скрипта за инсталацију.
+Прилагођена скрипта за инсталацију (*dotfiles*):
 
 
 ```bash
-curl -s https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
 ```
 
 Или уз команду:

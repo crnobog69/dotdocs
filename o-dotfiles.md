@@ -41,7 +41,15 @@
 sudo pacman -S stow
 ```
 
-2. Клонирање:
+2. Инсталација:
+
+- Скрипта:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
+```
+
+- Или ручно:
 
 ```bash
 git clone https://github.com/crnobog69/dotfiles.git
@@ -50,7 +58,7 @@ git clone https://github.com/crnobog69/dotfiles.git
 Или уз [`extra`](https://github.com/crnobog69/extra):
 
 ```bash
-git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.com/crnobog69/extra.git
+git clone https://github.com/crnobog69/dotfiles.git && git clone https://github.com/crnobog69/extra.git
 ```
 
 3. Примена конфигурација:

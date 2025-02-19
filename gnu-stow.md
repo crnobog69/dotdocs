@@ -12,9 +12,6 @@
 
 ## _Преузимање_
 
-> [!INFO]
-> Ускоро скиптра за преузимање и ажурирање.
-
 > [!WARNING]
 > Прво проверите [**_Компатибилност_**](#компатибилност).
 
@@ -24,7 +21,15 @@
 sudo pacman -S stow
 ```
 
-2. Клонирање:f
+2. Инсталација (*dotfiles*):
+
+- Скрипта:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
+```
+
+- Или ручно:
 
 ```bash
 git clone https://github.com/crnobog69/dotfiles.git
@@ -33,14 +38,14 @@ git clone https://github.com/crnobog69/dotfiles.git
 Или уз [`extra`](https://github.com/crnobog69/extra):
 
 ```bash
-git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.com/crnobog69/extra.git
+git clone https://github.com/crnobog69/dotfiles.git && git clone https://github.com/crnobog69/extra.git
 ```
 
 3. Примена конфигурација:
 
 ```bash
 cd ~/.dotfiles
-stow kitty-cat-green zed zsh fastfetch micro starship fish bottom cava bat mpv
+stow .
 ```
 
 или (једно)
