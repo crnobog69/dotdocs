@@ -11,6 +11,10 @@
 >
 > **_GitHub_** - [`crnobog69/dotfiles`](https://github.com/crnobog69/dotfiles)
 >
+> **_BitBucket_** - [`crnobog69/dotfiles`](https://bitbucket.org/crnobog69/dotfiles)
+>
+> **_SourceHut_** - [`crnobog/dotfiles`](https://git.sr.ht/~crnobog/dotfiles)
+>
 > **_Codeberg_** - [`crnobog/dotfiles`](https://codeberg.org/crnobog/dotfiles)
 >
 > **_GitLab_** - [`crnobog/dotfiles`](https://gitlab.com/crnobog/dotfiles)
