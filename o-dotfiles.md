@@ -130,6 +130,8 @@ stow zed
 
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotfiles)
 
+🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/dotfiles)
+
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/dotfiles)
@@ -142,6 +144,8 @@ stow zed
 
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/extra)
 
+🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/extra)
+
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/extra)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
@@ -153,6 +157,8 @@ stow zed
 #### Репозиторијуми (dotwin | Windows):
 
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotwin)
+
+🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/dotwin)
 
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotwin)
 
