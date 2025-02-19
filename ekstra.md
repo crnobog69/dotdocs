@@ -13,6 +13,8 @@
 >
 > **_BitBucket_** - [`crnobog69/extra`](https://bitbucket.org/crnobog69/extra)
 >
+> **_SourceHut_** - [`crnobog/extra`](https://git.sr.ht/~crnobog/extra)
+>
 > **_Codeberg_** - [`crnobog/extra`](https://codeberg.org/crnobog/extra)
 >
 > **_GitLab_** - [`crnobog/extra`](https://gitlab.com/crnobog/extra)
@@ -161,6 +163,8 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotfiles)
 
+🌲 | [`SourceHut | Репозиторијум`](https://git.sr.ht/~crnobog/dotfiles)
+
 🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/dotfiles)
 
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotfiles)
@@ -177,6 +181,8 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 
 🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/extra)
 
+🌲 | [`SourceHut | Репозиторијум`](https://git.sr.ht/~crnobog/extra)
+
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/extra)
 
 🦊 | [`GitLab | Репозиторијум`](https://gitlab.com/crnobog/extra)
@@ -190,6 +196,8 @@ git clone https://codeberg.org/crnobog/dotfiles.git && git clone https://github.
 🐙 | [`Github | Репозиторијум`](https://github.com/crnobog69/dotwin)
 
 🪣 | [`BitBucket | Репозиторијум`](https://bitbucket.org/crnobog69/dotwin)
+
+🌲 | [`SourceHut | Репозиторијум`](https://git.sr.ht/~crnobog/dotwin)
 
 🏔️ | [`Codeberg | Репозиторијум`](https://codeberg.org/crnobog/dotwin)
 
