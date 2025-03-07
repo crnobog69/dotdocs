@@ -32,7 +32,7 @@
 
 ### 1. Преузимање
 
-- Скрипта (*dotfiles*):
+- Скрипта (_dotfiles_):
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/crnobog69/dotfiles/refs/heads/main/install.sh | sh
