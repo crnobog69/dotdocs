@@ -173,6 +173,10 @@ stow zed
   - Конфигурација за апликацију `Wakapi`.
   - Званични сајт: [https://wakapi.dev/](https://wakapi.dev/)
 
+- **`GDU`**
+  - Брзи анализатор коришћења диска са интерфејсом конзоле написаним у `Go`
+  - Званични сајт: [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
+
 - **`Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator`, `Apdatifier`**
   - Подешавања за `Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator` и `Apdatifier`.
     <br>
