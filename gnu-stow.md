@@ -177,6 +177,10 @@ stow zed
   - Брзи анализатор коришћења диска са интерфејсом конзоле написаним у `Go`
   - Званични сајт: [https://github.com/dundee/gdu](https://github.com/dundee/gdu)
 
+- **`Ghostty`**
+  - Конфигурација за терминал `Ghostty`.
+  - Званични сајт: [https://ghostty.org/](https://ghostty.org/)
+
 - **`Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator`, `Apdatifier`**
   - Подешавања за `Transparency.toggle`, `Plasmusic-toolbar`, `Zayron.simple.separator` и `Apdatifier`.
     <br>
